@@ -2,6 +2,9 @@
 
 SCRIPTS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
+useradd pthomison
+
+
 source ${SCRIPTS_DIR}/base.sh
 
 dnf install cros-guest-tools 

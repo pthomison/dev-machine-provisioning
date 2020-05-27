@@ -2,7 +2,7 @@
 
 set -x
 
-USERNAME=$(id -u)
+USERNAME=pthomison
 
 dhclient
 
